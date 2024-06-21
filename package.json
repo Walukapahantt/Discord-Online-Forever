@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eris": "^0.17.2"
+    "eris": "^0.17.2",
+    "express": "^4.17.3",
+    "express": "^4.18.1"
   }
 }
