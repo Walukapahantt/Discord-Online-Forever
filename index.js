@@ -9,3 +9,5 @@ bot.on("error", (err) => {
 });
 
 bot.connect(); // Get the bot to connect to Discord
+
+start('main.js')
