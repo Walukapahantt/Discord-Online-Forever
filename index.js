@@ -1,5 +1,6 @@
 const Eris = require("eris");
 const keep_alive = require('./keep_alive.js')
+const live = require('./main.js')
 
 // Replace TOKEN with your bot account's token
 const bot = new Eris(process.env.token);
@@ -10,4 +11,3 @@ bot.on("error", (err) => {
 
 bot.connect(); // Get the bot to connect to Discord
 
-start('main.js')
